@@ -12,12 +12,12 @@ printf("\na/A : ADD new record\nd/D : Delete a record\ns/S : Show the list\nm/M 
 
 
 
-scanf("%c",&op);
+scanf(" %c",&op);
 switch(op)
 {
 	case 'a' : add(&headpointer);break;
-
-
+	case 's' : list(headpointer);break;
+	case 'd' : del(&headpointer);break;
 }
 }
 }
