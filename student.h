@@ -13,3 +13,4 @@ struct student *next;
 void add(SLL**);
 void del(SLL**);
 void list(SLL*);
+void modify(SLL**);

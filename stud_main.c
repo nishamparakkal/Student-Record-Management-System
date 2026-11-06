@@ -18,6 +18,7 @@ switch(op)
 	case 'a' : add(&headpointer);break;
 	case 's' : list(headpointer);break;
 	case 'd' : del(&headpointer);break;
+	case 'm' : modify(&headpointer);break;
 }
 }
 }
