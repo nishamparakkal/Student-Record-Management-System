@@ -8,9 +8,12 @@ int rollno;
 char name[50];
 float percentage;
 struct student *next;
-}SLL;
+} SLL;
 
-void add(SLL**);
-void del(SLL**);
-void list(SLL*);
-void modify(SLL**);
+void add(SLL **);
+void del(SLL **);
+void list(SLL *);
+void modify(SLL **);
+void save(SLL *);
+void load(SLL **);
+void exit_menu(SLL *);
