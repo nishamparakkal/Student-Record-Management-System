@@ -89,3 +89,25 @@ l:
 
 
 }
+
+
+void deleteall(SLL **ptr)
+{
+if(ptr==0)
+{
+printf("no records found\n");
+return;
+}
+
+SLL *del=*ptr;
+int c=1;
+while(del)
+{
+*ptr=del->next;
+printf("Node position %d deleted\n",c++);
+sleep(1);
+free(del);
+del=*ptr;
+}
+
+}

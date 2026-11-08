@@ -22,8 +22,10 @@ switch(op)
 	case 'd' : del(&headpointer);break;
 	case 'm' : modify(&headpointer);break;
 	case 'v' : save(headpointer);break;
-	case 'e' : exit_menu(headpointer);
-	default : printf("invalid option\n");
+	case 'e' : exit_menu(headpointer);break;
+	case 'l' : deleteall(&headpointer);break;
+	case 'r' : reverse(&headpointer);break;
+	default : printf("invalid option\n");break;
 }
 }
 }

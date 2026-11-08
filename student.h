@@ -17,3 +17,5 @@ void modify(SLL **);
 void save(SLL *);
 void load(SLL **);
 void exit_menu(SLL *);
+void deleteall(SLL **);
+void countNode(SLL *);
