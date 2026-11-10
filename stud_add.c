@@ -25,6 +25,11 @@ void add(SLL **ptr)
 	new->rollno=num;
 	printf("enter name and marks\n");
 l:	scanf("%s%f",new->name,&new->percentage);
+	if(new->name==0)
+	{
+	printf("enter the valid name\n");
+	goto l;
+	}
 	if((new->percentage) <0 || (new->percentage >100))
 	{
 	printf("enter valid marks\n");

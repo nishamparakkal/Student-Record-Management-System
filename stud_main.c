@@ -25,6 +25,7 @@ switch(op)
 	case 'e' : exit_menu(headpointer);break;
 	case 'l' : deleteall(&headpointer);break;
 	case 'r' : reverse(&headpointer);break;
+	case 't' : sortdata(headpointer);break;
 	default : printf("invalid option\n");break;
 }
 }
