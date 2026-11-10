@@ -7,7 +7,7 @@ The project allows users to manage student records through a simple command-line
 ## Features
 
 - **Add Student** – Add new student records with automatically assigned roll numbers.
-- **Delete Student** – Remove a student record using the roll number.
+- **Delete a Student Record** – Remove a student record using the roll number.
 - **Display Records** – View all stored student details.
 - **Modify Records** – Update existing student information.
 - **Sort Records** – Arrange student records.
