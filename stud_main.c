@@ -17,14 +17,25 @@ printf("\na/A : ADD new record\nd/D : Delete a record\ns/S : Show the list\nm/M 
 scanf(" %c",&op);
 switch(op)
 {
+	case 'A' : 
 	case 'a' : add(&headpointer);break;
+	
+	case 'S' : 
 	case 's' : list(headpointer);break;
+
+	case 'D' :
 	case 'd' : del(&headpointer);break;
+	case 'M' : 
 	case 'm' : modify(&headpointer);break;
+	case 'V' : 
 	case 'v' : save(headpointer);break;
+	case 'E' : 
 	case 'e' : exit_menu(headpointer);break;
+	case 'L' : 
 	case 'l' : deleteall(&headpointer);break;
+	case 'R' : 
 	case 'r' : reverse(&headpointer);break;
+	case 'T' : 
 	case 't' : sortdata(headpointer);break;
 	default : printf("invalid option\n");break;
 }

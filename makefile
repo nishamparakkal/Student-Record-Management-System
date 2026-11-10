@@ -1,5 +1,5 @@
-student: stud_del.o stud_main.o stud_save.o stud_add.o stud_mod.o   stud_show.o rev.c stud_sort.c stud_load.c
-	cc stud_del.o stud_main.o stud_save.o stud_add.o stud_mod.o stud_show.o rev.c stud_sort.c stud_load.c -o student
+student: stud_del.o stud_main.o stud_save.o stud_add.o stud_mod.o stud_show.o rev.o stud_sort.o stud_load.o
+	cc stud_del.o stud_main.o stud_save.o stud_add.o stud_mod.o stud_show.o rev.o stud_sort.o stud_load.o -o student
 
 stud_del.o: stud_del.c
 	cc -c stud_del.c
